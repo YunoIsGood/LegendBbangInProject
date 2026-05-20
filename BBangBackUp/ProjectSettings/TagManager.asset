@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Treasure
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - SafeZone
+  - Water
+  - UI
+  - Treasure
+  - Particle
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Treasure
+    uniqueID: 3529377619
+    locked: 0
+  - name: Ground
+    uniqueID: 1533279695
+    locked: 0
+  - name: SafeZone
+    uniqueID: 100416201
+    locked: 0
+  - name: Particle
+    uniqueID: 2676148079
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 3204288965
+    locked: 0
+  - name: UpUpUp
+    uniqueID: 346684501
+    locked: 0
+  m_RenderingLayers:
+  - Default
