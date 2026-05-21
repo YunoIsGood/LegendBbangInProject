@@ -5,7 +5,7 @@ public class PlayerAttackArea : MonoBehaviour
 {
     // 부모(PlayerAttack)의 공격력을 가져오기 위한 참조
     public PlayerAttack playerAttack;
-
+    public GameObject AttackEffect; // 공격 이펙트 프리팹 내 그거에 있음 그 에셋 
     [Header("Knockback Settings")]
     public float knockbackForce = 8f;     // 밀려나는 힘의 세기
     public float knockbackDuration = 0.15f; // 밀려나는 시간 (초)
@@ -17,6 +17,8 @@ public class PlayerAttackArea : MonoBehaviour
         if (target != null)
         {
             target.TakeDamage(playerAttack.playerDamage);
+            GameObject CloneEffect = Instantiate(AttackEffect, collision.transform.position, Quaternion.identity); // 공격 이펙트를 대충 공격 범위가 충돌한 자리에 생성한다는 뜻 이거 때문에 싱크가 조금 엇나갈순 있는데 이게 최선임
+            Destroy(CloneEffect, 2f); // 공격 이펙트는 2초 후에 삭제 정확힌 재생된 뒤 기다리면 알아서 사라짐
             Debug.Log(collision.name + "에게 대미지를 입혔습니다.");
         }
 
@@ -56,4 +58,6 @@ public class PlayerAttackArea : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
         }
     }
+
+    
 }

@@ -37717,6 +37717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAttack: {fileID: 1822952164}
+  AttackEffect: {fileID: 1819776082402006475, guid: 718c5ceccc343944f97f4c60de369d62, type: 3}
   knockbackForce: 8
   knockbackDuration: 0.15
 --- !u!61 &379003653
@@ -42712,6 +42713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAttack: {fileID: 1822952164}
+  AttackEffect: {fileID: 1819776082402006475, guid: 718c5ceccc343944f97f4c60de369d62, type: 3}
   knockbackForce: 8
   knockbackDuration: 0.15
 --- !u!1 &1347813420
@@ -44557,6 +44559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAttack: {fileID: 1822952164}
+  AttackEffect: {fileID: 1819776082402006475, guid: 718c5ceccc343944f97f4c60de369d62, type: 3}
   knockbackForce: 8
   knockbackDuration: 0.15
 --- !u!4 &1682855073
@@ -51718,6 +51721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAttack: {fileID: 1822952164}
+  AttackEffect: {fileID: 1819776082402006475, guid: 718c5ceccc343944f97f4c60de369d62, type: 3}
   knockbackForce: 8
   knockbackDuration: 0.15
 --- !u!1 &2065194453
